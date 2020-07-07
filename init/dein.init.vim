@@ -18,10 +18,19 @@ if dein#load_state('/Users/nishimoridaisuke/.config/nvim/.cache/dein')
   call dein#add('Shougo/neosnippet.vim')
   call dein#add('Shougo/neosnippet-snippets')
 
+  let s:toml_dir = $HOME . "/.config/nvim/dein/toml"
+  let s:toml = s:toml_dir . "/dein.toml"
+  let s:toml_lazy = s:toml_dir . "/dein_lazy.toml"
+
+  call dein#load_toml(s:toml, {"lazy": 0})
+  call dein#load_toml(s:toml_lazy, {"lazy": 1})
+
   " Required:
   call dein#end()
   call dein#save_state()
 endif
+
+
 
 " Required:
 filetype plugin indent on

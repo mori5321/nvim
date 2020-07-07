@@ -1,0 +1,12 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+hook_add = '''
+    autocmd Vimenter * execute 'NERDTree'
+    map <C-t> :NERDTreeToggle<CR>
+'''
+
+[[plugins]]
+repo = 'cespare/vim-toml'
