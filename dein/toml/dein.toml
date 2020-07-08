@@ -10,3 +10,9 @@ hook_add = '''
 
 [[plugins]]
 repo = 'cespare/vim-toml'
+
+[[plugins]] # カラースキーマ
+repo = 'w0ng/vim-hybrid'
+hook_add = '''
+    colorscheme hybrid
+'''
