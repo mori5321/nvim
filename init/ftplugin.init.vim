@@ -13,5 +13,7 @@ set cursorcolumn
 augroup fileTypeIndent
     autocmd!
     autocmd BufNewFile,BufRead *.py setlocal tabstop=4 shiftwidth=4 softtabstop=4
+    autocmd BufNewFile,BufRead *.hs setlocal tabstop=4 shiftwidth=4 softtabstop=4
+    autocmd BufNewFile,BufRead *.rs setlocal tabstop=4 shiftwidth=4 softtabstop=4
 augroup END
 
