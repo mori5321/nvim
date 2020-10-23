@@ -1,4 +1,4 @@
-syntax on
+syntax enable
 set wrapscan
 set backspace=indent,eol,start
 set expandtab
