@@ -2,13 +2,6 @@
 repo = 'Shougo/dein.vim'
 
 [[plugins]]
-repo = 'scrooloose/nerdtree'
-hook_add = '''
-    autocmd Vimenter * execute 'NERDTree'
-    map <C-t> :NERDTreeToggle<CR>
-'''
-
-[[plugins]]
 repo = 'cespare/vim-toml'
 
 [[plugins]] # カラースキーマ
@@ -60,6 +53,14 @@ hook_add = '''
 source ~/.config/nvim/plugins/cow.rc.vim
 '''
 
+[[plugins]]
+repo = "rking/ag.vim"
+
+[[plugins]]
+repo = "Shougo/defx.nvim"
+hook_add = '''
+  source ~/.config/nvim/plugins/defx.rc.vim
+'''
 
 [[plugins]]
 repo = 'Shougo/denite.nvim'
@@ -73,3 +74,34 @@ repo = 'roxma/nvim-yarp'
 
 [[plugins]]
 repo = 'roxma/vim-hug-neovim-rpc'
+
+[[plugins]]
+repo = "leafgarland/typescript-vim"
+
+
+[[plugins]]
+repo = "peitalin/vim-jsx-typescript"
+hook_add = '''
+hi tsxComponentName ctermfg=146
+hi tsxCloseComponentName ctermfg=146
+hi tsxTagName ctermfg=109
+hi tsxCloseTagName ctermfg=109
+'''
+
+[[plugins]]
+repo = "pangloss/vim-javascript"
+
+[[plugins]]
+repo = 'jason0x43/vim-js-indent'
+
+[[plugins]]
+repo = 'styled-components/vim-styled-components'
+
+[[plugins]]
+repo = "jiangmiao/auto-pairs"
+
+[[plugins]]
+repo = "alvan/vim-closetag"
+hook_add = '''
+let g:closetag_filenames = "*.html,*.erb,*.tsx,*.jsx"
+'''
