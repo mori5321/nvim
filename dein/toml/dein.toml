@@ -105,3 +105,4 @@ repo = "alvan/vim-closetag"
 hook_add = '''
 let g:closetag_filenames = "*.html,*.erb,*.tsx,*.jsx"
 '''
+
