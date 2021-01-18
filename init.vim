@@ -4,6 +4,7 @@ set backspace=indent,eol,start
 set expandtab
 let mapleader = "\<SPACE>"
 set lazyredraw 
+
 "行番号の色を変更
 autocmd ColorScheme * highlight LineNr ctermfg=499
 
