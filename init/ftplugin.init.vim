@@ -31,5 +31,8 @@ augroup fileTypeIndent
     " For tsserver(configured also in CocConfig formatOnSaveFileType.
     " Checkout.)
     autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescriptreact
+    autocmd BufNewFile,BufRead *.cpp setlocal tabstop=4 shiftwidth=4 softtabstop=4
+    autocmd BufNewFile,BufRead *.c setlocal tabstop=4 shiftwidth=4 softtabstop=4
+    autocmd BufNewFile,BufRead *.sql setlocal tabstop=2 shiftwidth=2 softtabstop=2
 augroup END
 

@@ -111,3 +111,7 @@ repo = "LnL7/vim-nix"
 
 [[plugins]]
 repo = "wlangstroth/vim-racket"
+
+[[plugins]]
+repo = "mattn/vim-goimports"
+
