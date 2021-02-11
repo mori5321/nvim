@@ -88,14 +88,14 @@ hi tsxTagName ctermfg=109
 hi tsxCloseTagName ctermfg=109
 '''
 
-[[plugins]]
-repo = "pangloss/vim-javascript"
+# [[plugins]]
+# repo = "pangloss/vim-javascript"
+# 
+# [[plugins]]
+# repo = 'jason0x43/vim-js-indent'
 
-[[plugins]]
-repo = 'jason0x43/vim-js-indent'
-
-[[plugins]]
-repo = 'styled-components/vim-styled-components'
+# [[plugins]]
+# repo = 'styled-components/vim-styled-components'
 
 [[plugins]]
 repo = "jiangmiao/auto-pairs"
@@ -106,3 +106,8 @@ hook_add = '''
 let g:closetag_filenames = "*.html,*.erb,*.tsx,*.jsx"
 '''
 
+[[plugins]]
+repo = "LnL7/vim-nix"
+
+[[plugins]]
+repo = "wlangstroth/vim-racket"

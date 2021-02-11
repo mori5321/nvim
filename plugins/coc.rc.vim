@@ -6,7 +6,9 @@ nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
-
+nmap <silent> gf <Plug>(coc-format)
+nmap <silent> g[ <Plug>(coc-diagnostic-prev)
+nmap <silent> g] <Plug>(coc-diagnostic-next)
 " Hover Action
 nmap <silent> <space>h :<C-u>call CocAction('doHover')<cr>
 

@@ -1,16 +1,33 @@
 {
-  "rust-analyzer": {
-  },
+  "json.enable": true,
   "languageserver": {
     "golang": {
       "command": "gopls",
       "rootPatterns": ["go.mod"],
       "filetypes": ["go"]
+    },
+    "haskell": {
+      "command": "haskell-language-server-wrapper",
+      "args": ["--lsp"],
+      "rootPatterns": [
+        "*.cabal",
+        "stack.yaml",
+        "cabal.project",
+        "package.yaml",
+        "hie.yaml"
+      ],
+      "filetypes": ["haskell", "lhaskell"]
     }
   },
-  "typescript": {
-    "format": {
-      "insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true
-    }
-  }
+  "rust-analyzer.enable": true,
+  "coc.preferences.formatOnType": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "json",
+    "css",
+    "html",
+    "jsx",
+    "tsx",
+    "ts",
+    "typescriptreact"
+  ]
 }
