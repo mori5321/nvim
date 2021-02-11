@@ -115,3 +115,5 @@ repo = "wlangstroth/vim-racket"
 [[plugins]]
 repo = "mattn/vim-goimports"
 
+[[plugins]]
+repo = "tpope/vim-fugitive"
