@@ -94,8 +94,8 @@ hi tsxCloseTagName ctermfg=109
 # [[plugins]]
 # repo = 'jason0x43/vim-js-indent'
 
-# [[plugins]]
-# repo = 'styled-components/vim-styled-components'
+[[plugins]]
+repo = 'styled-components/vim-styled-components'
 
 [[plugins]]
 repo = "jiangmiao/auto-pairs"
