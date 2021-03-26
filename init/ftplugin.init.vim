@@ -34,5 +34,6 @@ augroup fileTypeIndent
     autocmd BufNewFile,BufRead *.cpp setlocal tabstop=4 shiftwidth=4 softtabstop=4
     autocmd BufNewFile,BufRead *.c setlocal tabstop=4 shiftwidth=4 softtabstop=4
     autocmd BufNewFile,BufRead *.sql setlocal tabstop=2 shiftwidth=2 softtabstop=2
+    autocmd BufNewFile,BufRead *.elm setlocal tabstop=4 shiftwidth=4 softtabstop=4
 augroup END
 

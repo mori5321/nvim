@@ -117,3 +117,14 @@ repo = "mattn/vim-goimports"
 
 [[plugins]]
 repo = "tpope/vim-fugitive"
+
+[[plugins]]
+repo = 'elixir-editors/vim-elixir'
+
+[[plugins]]
+repo = 'ElmCast/elm-vim'
+hook_add = '''
+let g:elm_setup_keybindings = 0
+'''
+
+

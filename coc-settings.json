@@ -17,6 +17,11 @@
         "hie.yaml"
       ],
       "filetypes": ["haskell", "lhaskell"]
+    },
+    "elmLS": {
+      "command": "elm-language-server",
+      "filetypes": ["elm"],
+      "rootPatterns": ["elm.json"]
     }
   },
   "rust-analyzer.enable": true,
@@ -28,6 +33,7 @@
     "jsx",
     "tsx",
     "ts",
-    "typescriptreact"
+    "typescriptreact",
+    "elm"
   ]
 }
