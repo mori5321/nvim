@@ -127,4 +127,5 @@ hook_add = '''
 let g:elm_setup_keybindings = 0
 '''
 
-
+[[plugins]]
+repo = 'ekalinin/Dockerfile.vim'
