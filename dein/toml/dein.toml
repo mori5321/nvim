@@ -91,8 +91,6 @@ hi tsxCloseTagName ctermfg=109
 # [[plugins]]
 # repo = "pangloss/vim-javascript"
 # 
-# [[plugins]]
-# repo = 'jason0x43/vim-js-indent'
 
 [[plugins]]
 repo = 'styled-components/vim-styled-components'
@@ -129,3 +127,4 @@ let g:elm_setup_keybindings = 0
 
 [[plugins]]
 repo = 'ekalinin/Dockerfile.vim'
+
