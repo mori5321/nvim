@@ -1,3 +1,5 @@
+let g:python3_host_prog = system("echo -n $(which python3)")
+
 syntax enable
 set wrapscan
 set backspace=indent,eol,start
@@ -19,3 +21,7 @@ highlight LineNr ctermbg=none
 highlight Folded ctermbg=none
 highlight EndOfBuffer ctermbg=none
 
+" For Ocaml (merlin & ocp-indent)
+let g:opamshare = substitute(system('opam var share'),'\n$','','''')
+execute "set rtp+=" . g:opamshare . "/merlin/vim"
+execute 'set rtp^=' . g:opamshare . '/ocp-indent/vim'

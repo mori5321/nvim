@@ -90,10 +90,10 @@ hi tsxCloseTagName ctermfg=109
 
 # [[plugins]]
 # repo = "pangloss/vim-javascript"
-# 
 
-[[plugins]]
-repo = 'styled-components/vim-styled-components'
+
+# [[plugins]]
+# repo = 'styled-components/vim-styled-components'
 
 [[plugins]]
 repo = "jiangmiao/auto-pairs"
@@ -128,3 +128,27 @@ let g:elm_setup_keybindings = 0
 [[plugins]]
 repo = 'ekalinin/Dockerfile.vim'
 
+[[plugins]]
+repo = 'direnv/direnv.vim'
+
+
+[[plugins]]
+repo = 'pantharshit00/vim-prisma'
+
+[[plugins]]
+repo = 'vmchale/dhall-vim'
+
+[[plugins]]
+repo = 'scrooloose/syntastic'
+hook_add = '''
+let g:syntastic_ocaml_checker = ['merlin']
+let g:syntastic_mode_map = {
+    \ "mode": "passive",
+    \ "active_filetypes": ["ml", "cpp"],
+    \ "passive_filetypes": [] }
+let g:syntastic_cpp_compiler = 'clang++'
+let g:syntastic_cpp_compiler_options = ' -std=c++17 -stdlib=libc++'
+'''
+
+[[plugins]]
+repo = 'jakwings/vim-pony'
