@@ -8,7 +8,7 @@ function! s:defx_my_settings() abort
   nnoremap <silent><buffer><expr> e
   \ defx#do_action('open')
   nnoremap <silent><buffer><expr> t
-  \ defx#do_action('open_tree')
+  \ defx#do_action('open_or_close_tree')
   nnoremap <silent><buffer><expr> p
   \ defx#do_action("preview")
   nnoremap <silent><buffer><expr> q

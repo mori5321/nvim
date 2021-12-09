@@ -152,3 +152,9 @@ let g:syntastic_cpp_compiler_options = ' -std=c++17 -stdlib=libc++'
 
 [[plugins]]
 repo = 'jakwings/vim-pony'
+
+[[plugins]]
+repo = 'purescript-contrib/purescript-vim'
+
+[[plugins]]
+repo = 'frigoeu/psc-ide-vim'

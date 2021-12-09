@@ -12,3 +12,7 @@ deinによるライブラリインストールが開始するはず
 ### 6. 各種Coc系のインストール
 Cocはcoc-settings.jsonに設定こそあるが、実体がインストールされないので手動でインストール
 例) :CocInstall tsserver 
+
+
+# パッケージのアップデート
+:call dein#update()
